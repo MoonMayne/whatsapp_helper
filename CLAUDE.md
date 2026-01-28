@@ -318,20 +318,29 @@ QUESTIONS: Things I'm unsure about
 - Emotional salience (remember what matters)
 - Hierarchical (working memory → short-term → long-term)
 
-### Research Trying to Bridge Gap
-- **MemGPT** - Hierarchical memory with LLM management
-- **Generative Agents** - Reflection + memory streaming
-- **RAG + Vector Stores** - Retrieval-based memory
-- **Character.AI** - Personality persistence (closed source)
+### Research Trying to Bridge Gap (2025-2026)
+- **HiMem** (Jan 2026) - Hierarchical long-term memory for long-horizon dialogues; links episodic events with abstract knowledge
+- **Agentic Reasoning for LLMs** (Jan 2026) - Self-reflection, memory mechanisms, multi-agent coordination
+- **Human-Like Remembering and Forgetting** (2025) - Integrates ACT-R cognitive architecture for human-like memory decay
+- **DAM-LLM** (Oct 2025) - Dynamic affective memory; emotional weighting of memories
+- **"A Survey on the Evolution of LLM Agent Memory"** (Jan 2026) - Overview of memory mechanism progression
+- **MemGPT** (2024-2025) - OS-inspired hierarchical memory management (RAM vs disk analogy)
+- **Persistent Memory Frameworks** (2025) - Long-term retention, selective retrieval, dynamic organization
 
 ---
 
 ## Related Research
 
-### Academic Papers
+### Academic Papers (2025-2026)
+- "HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents" (arXiv, Jan 2026)
+- "Agentic Reasoning for Large Language Models" (ResearchGate, Jan 2026)
+- "Human-Like Remembering and Forgetting in LLM Agents" (ACM, 2025) - ACT-R integration
+- "Dynamic Affective Memory Management for Personalized Dialogue" (arXiv, Oct 2025)
+- "A Survey on the Evolution of LLM Agent Memory" (Preprints, Jan 2026)
+
+### Earlier Foundational Work
 - "Generative Agents: Interactive Simulacra of Human Behavior" (Stanford, 2023)
 - "MemGPT: Towards LLMs as Operating Systems" (UC Berkeley, 2024)
-- "Constitutional AI" (Anthropic, 2023)
 
 ### Industry
 - **Character.AI** - Personality-focused chatbots
