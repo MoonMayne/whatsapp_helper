@@ -319,6 +319,7 @@ QUESTIONS: Things I'm unsure about
 - Hierarchical (working memory → short-term → long-term)
 
 ### Research Trying to Bridge Gap (2025-2026)
+- **RLM - Recursive Language Models** (MIT, Dec 2025/Jan 2026) - **BREAKTHROUGH**: Solves context rot by treating prompts as external environment; LLM "calls" for context as variables; enables 10M+ token processing without degradation
 - **HiMem** (Jan 2026) - Hierarchical long-term memory for long-horizon dialogues; links episodic events with abstract knowledge
 - **Agentic Reasoning for LLMs** (Jan 2026) - Self-reflection, memory mechanisms, multi-agent coordination
 - **Human-Like Remembering and Forgetting** (2025) - Integrates ACT-R cognitive architecture for human-like memory decay
@@ -332,6 +333,7 @@ QUESTIONS: Things I'm unsure about
 ## Related Research
 
 ### Academic Papers (2025-2026)
+- **"Recursive Language Models"** (MIT, arXiv 2512.24601, Dec 2025) - **MAJOR BREAKTHROUGH**: Solves context rot; treats prompts as external environment; REPL-based architecture enables unbounded context (10M+ tokens)
 - "HiMem: Hierarchical Long-Term Memory for LLM Long-Horizon Agents" (arXiv, Jan 2026)
 - "Agentic Reasoning for Large Language Models" (ResearchGate, Jan 2026)
 - "Human-Like Remembering and Forgetting in LLM Agents" (ACM, 2025) - ACT-R integration
