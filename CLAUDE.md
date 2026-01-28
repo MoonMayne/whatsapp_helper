@@ -248,6 +248,11 @@ QUESTIONS: Things I'm unsure about
 
 ## Git Permissions
 
+**GitHub Access:**
+- **Username:** MoonMayne
+- **Protocol:** HTTPS (not SSH)
+- **URL format:** https://github.com/MoonMayne/whatsapp_helper.git
+
 **Allowed:**
 - ✅ git commit
 - ✅ git push
