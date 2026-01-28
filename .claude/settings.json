@@ -1,0 +1,75 @@
+{
+  "deny": {
+    "commands": [
+      "rm",
+      "rmdir",
+      "rm -rf",
+      "git reset --hard",
+      "git push --force",
+      "git branch -D",
+      "git checkout --orphan",
+      "git clean -fd",
+      "git clean -fdx"
+    ],
+    "files": [
+      "~/.ssh/*",
+      "/etc/*",
+      "/usr/*",
+      "/System/*"
+    ]
+  },
+  "allow": {
+    "commands": [
+      "git",
+      "git add",
+      "git commit",
+      "git push",
+      "git pull",
+      "git status",
+      "git log",
+      "git diff",
+      "git show",
+      "git branch",
+      "git checkout",
+      "git merge",
+      "git remote",
+      "git clone",
+      "bd",
+      "python3",
+      "python",
+      "pip3",
+      "pip",
+      "uv",
+      "go",
+      "go run"
+    ],
+    "files": [
+      "*.py",
+      "*.md",
+      "*.txt",
+      "*.json",
+      ".envrc",
+      "README*"
+    ],
+    "directories": [
+      "/Users/Sanjeed/Documents/GitHub/whatsapp_helper"
+    ]
+  },
+  "mcpServers": {
+    "beads": {
+      "command": "bd",
+      "args": ["mcp"]
+    },
+    "zai-mcp-server": {
+      "command": "npx",
+      "args": ["-y", "@zai-mcp/server"]
+    }
+  },
+  "permissions": {
+    "git": {
+      "commit": true,
+      "push": true,
+      "branch": "main"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Beads
+.beads/
+
+# Direnv
+.direnv/
+
+# WhatsApp MCP (if cloned locally)
+whatsapp-mcp/
+
+# Research data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Claude Desktop config (if testing locally)
+claude_desktop_config.json
+
+# OS
+.DS_Store
+Thumbs.db
